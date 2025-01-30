@@ -1,0 +1,3 @@
+4 spaces instead of tabs
+79 character length per line, but dont worry about it too much
+croup parts visually with blank lines
