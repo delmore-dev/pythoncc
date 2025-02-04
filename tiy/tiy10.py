@@ -12,8 +12,13 @@ favorite_numbers = {
     'dave' : 56,
     'steve' : 13,
 }
+
 print(f"Karens's favorite number is {favorite_numbers['karen']}")
 print(f"Sally's favorite number is {favorite_numbers['sally']}")
 print(f"Brad's favorite number is {favorite_numbers['brad']}")
 print(f"Dave's favorite number is {favorite_numbers['dave']}")
 print(f"Steve's favorite number is {favorite_numbers['steve']}")
+
+#and for the cleaner way
+for name , number in favorite_numbers.items():
+    print(f"{name}'s favorite number is {number}.")
