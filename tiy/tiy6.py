@@ -6,7 +6,7 @@ for pizza in pizzas:
 #add a line outside of the loop that states how much you like pizza
 print("I really like pizza!")
 
- 
+
 #Animals: think of at least 3 animals that have a common chaacteristic. Store them in a list, and use a for loop to print the name of each animal.
 animals = ['bear','cat','dog']
 for animal in animals:
