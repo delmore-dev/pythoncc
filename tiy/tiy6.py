@@ -11,6 +11,7 @@ animals = ['bear','cat','dog']
 for animal in animals:
     print (f"{animal}")
 
+
 #modify your program to print a statement about each animal
 
 for animal in animals:
