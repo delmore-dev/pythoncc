@@ -4,3 +4,6 @@ def make_shirt(size,text):
     print (f"The shirt size is {size}, and you want the shirt to say {text}.")
 
 make_shirt('small', '"I <3 NY"')
+
+#call the function using positional arguments and using keyword arguments
+make_shirt(text='this is a large shirt', size = 'large')
